@@ -1,0 +1,195 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('');
+}
+
+.menu-bar    {
+    background-color: #080F72;
+    font-family: arial;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: center; 
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-list a {
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.menu-list a:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+.hero-content {
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero-content img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+main section {
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+main section:nth-of-type(odd) {
+    background-color: lightgrey;
+}
+
+main section:nth-of-type(even) {
+    background-color: white;
+}
+
+
+main section h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+main section p {
+    margin: 20px 0px;
+    text-align: justify;
+}
+
+.destaque {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main section button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btnPreto {
+    background-color: black;
+}
+.btnAzul {
+    background-color: blue;
+}
+main section button:hover {
+    background-color: orangered;
+}
+
+main section h2 {
+    margin:20px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.container > div {
+    width: 100%;
+    padding: 20px;
+}
+
+.servicos div {
+    text-align: center;
+}
+
+.servicos img {
+    width:90%;
+}
+
+.paixao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 20px;
+    
+}
+
+.paixao .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.compromissos {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px;
+}
+
+.compromissos .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img img { 
+    width: 435px; 
+    height: 320px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-left: 60px; 
+}
+
+.compromissos p {
+    font-size: 20px;
+    line-height: 1.0;
+    width: 550px;
+    margin-top: 5px;
+}
+
+.compromissos h2 {
+    margin-top:5px;
+}
+
+.button-compromissos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    margin-left: 40px;
+}
+
+.footer {
+    display: flex;
+    background: black;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+
+}
+
+.footer h2 {
+    text-align: center;
+    font-size: 18px;
+}
